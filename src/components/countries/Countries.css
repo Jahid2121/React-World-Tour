@@ -1,0 +1,19 @@
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+ley
+.visited{
+    background-color: bisque;
+    color: black;
+}
+.non-visited{
+    background-color: slategrey;
+}
+
+.flag-container img{
+    width: 120px;
+    height: 80px;
+    margin-left: 10px;
+}
